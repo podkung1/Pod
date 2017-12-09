@@ -15,7 +15,6 @@ var statusBol = true
 nameString = "Doremon"
 numberInt = 321
 
-
 //การประกาศตัวแปรที่ไม่สามารถแก้ไขค่าได้ หรือค่าคงที่
 let conNameString = "Nopita"
 
@@ -27,6 +26,9 @@ var myNumber: Int = 321
 var myManyNumber: Double = 32.123
 var myStatus: Bool = false
 
-
+//การแสดงบน console
+print("Normal String")
+print("Name = \(nameString) Surname = \(surname)")
+print("Integer = \(numberInt)")
 
 
