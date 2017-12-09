@@ -31,4 +31,14 @@ print("After ==> \(nameStrings)")
 numberInts.append(25)
 numberInts.sort()
 
+//การกำหนดค่าให้กับตัวแปรประเภท Dictionary
+var dicNameStrings = ["key1":"Doremon","key2":"Nobita","key3":"Suneo"]
+var dicNumberInts = ["num1":111,"num2":222]
+
+//การหาจำนวนสมาชิก
+print("number of dicName ==> \(dicNameStrings.count)")
+
+//การเรียกใช้ Dictionary
+print("dicName ที่มีค่า key เป็น key2 คือ \(dicNameStrings["key2"]!)")
+
 
