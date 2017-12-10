@@ -9,6 +9,23 @@ class MyClass {
     var numberInt = 123
     var nameString = "Doremon"
     
+//    Create function Void Type ฟังก์ชั่นทำงานไม่ส่งค่าคืน
+    func myFunctionTypeVoid() -> Void {
+        print("This is Void Function")
+    }
+    
+    func myFuncTypeVoidHaveArguement(surname: String) -> Void {
+        let surnameString = surname
+        print("surname ==> \(surnameString)")
+        
+    }
+    
+//    Create Function Return Type
+    func calculateArea(base: Double, height: Double) -> Double {
+        let areaDouble = 0.5 * base * height
+        
+        return areaDouble
+    }
     
 
 } // MyClass
@@ -27,8 +44,12 @@ myClass.numberInt = 1000
 
 print("After Number ==> \(myClass.numberInt)")
 
+//How to Call Function?
+myClass.myFunctionTypeVoid()
 
+myClass.myFuncTypeVoidHaveArguement(surname: "รัตนพิบูลย์เดช")
 
+var answerDouble = myClass.calculateArea(base: 10, height: 25)
 
 
 
