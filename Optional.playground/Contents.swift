@@ -13,6 +13,7 @@ var numberInt = Int(numberString)
 //วิีีธีการแก้
 if let myNumberInt = numberInt {
     
-    var answerInt = myNumberInt + 10
+    let answerInt = myNumberInt + 10
+    print("Answer ==> \(answerInt)")
     
 } // if
